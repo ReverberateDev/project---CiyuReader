@@ -18,7 +18,6 @@ except ImportError:
     logging.error("deep-translator library not found. Please install it: pip install deep-translator")
     # Consider exiting here if translation is critical
 
-from chinese_english_lookup import Dictionary as CedictDictionary # Keeping CEDICT for definitions
 
 # --- Configuration ---
 SOURCE_DIRECTORY = "data"
